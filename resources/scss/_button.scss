@@ -1,0 +1,12 @@
+.btn.btn-primary {
+    border-radius: $radius;
+    color: var(--bs-white);
+    &:active {
+        color: var(--bs-white);
+    }
+}
+
+.btn{
+    font-weight: bold;
+    font-size: small;
+}

@@ -1,0 +1,14 @@
+.login-form-footer {
+    margin-top: 12px;
+    .register-link {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        a {
+            color: var(--bs-primary);
+            margin-left: 4px;
+            text-decoration: none;
+        }
+    }
+}

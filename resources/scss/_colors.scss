@@ -1,0 +1,45 @@
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+$primary: #00b175;
+$secondary: #71717b;
+$warning: #fff4cc;
+$success: #526336;
+$accent: #fe5800;
+$danger: #ed6160;
+$border-radius: 0.5rem;
+$info: #4e42a1;
+$muted: #023346;
+$label-hover: #023346;
+$font-family-base: 'Nunito', sans-serif; // Optional
+// ######COLOR#########
+$colors: (
+    'blue': $blue,
+    'indigo': $indigo,
+    'purple': $purple,
+    'pink': $pink,
+    'red': $red,
+    'orange': $orange,
+    'yellow': $yellow,
+    'green': $green,
+    'teal': $teal,
+    'cyan': $cyan,
+    'black': $black,
+    'white': $white,
+    'gray': $gray-600,
+    'gray-dark': $gray-800,
+);
+
+//THEME COLOR
+$theme-colors: (
+    'muted': $muted,
+    'accent': $accent,
+    'label-hover': $label-hover,
+    'primary': $primary,
+    'secondary': $secondary,
+    'success': $success,
+    'info': $info,
+    'warning': $warning,
+    'danger': $danger,
+    'light': $light,
+    'dark': $dark,
+);
